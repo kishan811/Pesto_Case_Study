@@ -1,0 +1,22 @@
+[
+    {"user_id": 101, "auction_id": "auction_1", "ad_targeting": {"location": "New York", "interests": ["sports", "technology"]}},
+    {"user_id": 102, "auction_id": "auction_2", "ad_targeting": {"location": "Los Angeles", "interests": ["music", "fashion"]}},
+    {"user_id": 103, "auction_id": "auction_3", "ad_targeting": {"location": "Chicago", "interests": ["food", "travel"]}},
+    {"user_id": 104, "auction_id": "auction_4", "ad_targeting": {"location": "Houston", "interests": ["technology", "finance"]}},
+    {"user_id": 105, "auction_id": "auction_5", "ad_targeting": {"location": "Miami", "interests": ["sports", "food"]}},
+    {"user_id": 106, "auction_id": "auction_6", "ad_targeting": {"location": "San Francisco", "interests": ["technology", "travel"]}},
+    {"user_id": 107, "auction_id": "auction_7", "ad_targeting": {"location": "Seattle", "interests": ["music", "food"]}},
+    {"user_id": 108, "auction_id": "auction_8", "ad_targeting": {"location": "Denver", "interests": ["sports", "fashion"]}},
+    {"user_id": 109, "auction_id": "auction_9", "ad_targeting": {"location": "Boston", "interests": ["technology", "food"]}},
+    {"user_id": 110, "auction_id": "auction_10", "ad_targeting": {"location": "Austin", "interests": ["music", "travel"]}},
+    {"user_id": 111, "auction_id": "auction_11", "ad_targeting": {"location": "Phoenix", "interests": ["sports", "finance"]}},
+    {"user_id": 112, "auction_id": "auction_12", "ad_targeting": {"location": "Philadelphia", "interests": ["technology", "music"]}},
+    {"user_id": 113, "auction_id": "auction_13", "ad_targeting": {"location": "San Diego", "interests": ["food", "fashion"]}},
+    {"user_id": 114, "auction_id": "auction_14", "ad_targeting": {"location": "Dallas", "interests": ["sports", "travel"]}},
+    {"user_id": 115, "auction_id": "auction_15", "ad_targeting": {"location": "Detroit", "interests": ["technology", "music"]}},
+    {"user_id": 116, "auction_id": "auction_16", "ad_targeting": {"location": "Las Vegas", "interests": ["food", "fashion"]}},
+    {"user_id": 117, "auction_id": "auction_17", "ad_targeting": {"location": "Portland", "interests": ["sports", "travel"]}},
+    {"user_id": 118, "auction_id": "auction_18", "ad_targeting": {"location": "Atlanta", "interests": ["technology", "finance"]}},
+    {"user_id": 119, "auction_id": "auction_19", "ad_targeting": {"location": "Miami", "interests": ["music", "food"]}},
+    {"user_id": 120, "auction_id": "auction_20", "ad_targeting": {"location": "Chicago", "interests": ["sports", "travel"]}}
+]
