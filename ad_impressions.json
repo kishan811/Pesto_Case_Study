@@ -1,0 +1,22 @@
+[
+    {"ad_creative_id": 1, "user_id": 101, "timestamp": "2024-05-11T08:00:00", "website": "example.com"},
+    {"ad_creative_id": 2, "user_id": 102, "timestamp": "2024-05-11T08:05:00", "website": "example.net"},
+    {"ad_creative_id": 3, "user_id": 103, "timestamp": "2024-05-11T08:10:00", "website": "example.org"},
+    {"ad_creative_id": 4, "user_id": 104, "timestamp": "2024-05-11T08:15:00", "website": "example.com"},
+    {"ad_creative_id": 5, "user_id": 105, "timestamp": "2024-05-11T08:20:00", "website": "example.net"},
+    {"ad_creative_id": 6, "user_id": 106, "timestamp": "2024-05-11T08:25:00", "website": "example.org"},
+    {"ad_creative_id": 7, "user_id": 107, "timestamp": "2024-05-11T08:30:00", "website": "example.com"},
+    {"ad_creative_id": 8, "user_id": 108, "timestamp": "2024-05-11T08:35:00", "website": "example.net"},
+    {"ad_creative_id": 9, "user_id": 109, "timestamp": "2024-05-11T08:40:00", "website": "example.org"},
+    {"ad_creative_id": 10, "user_id": 110, "timestamp": "2024-05-11T08:45:00", "website": "example.com"},
+    {"ad_creative_id": 11, "user_id": 111, "timestamp": "2024-05-11T08:50:00", "website": "example.net"},
+    {"ad_creative_id": 12, "user_id": 112, "timestamp": "2024-05-11T08:55:00", "website": "example.org"},
+    {"ad_creative_id": 13, "user_id": 113, "timestamp": "2024-05-11T09:00:00", "website": "example.com"},
+    {"ad_creative_id": 14, "user_id": 114, "timestamp": "2024-05-11T09:05:00", "website": "example.net"},
+    {"ad_creative_id": 15, "user_id": 115, "timestamp": "2024-05-11T09:10:00", "website": "example.org"},
+    {"ad_creative_id": 16, "user_id": 116, "timestamp": "2024-05-11T09:15:00", "website": "example.com"},
+    {"ad_creative_id": 17, "user_id": 117, "timestamp": "2024-05-11T09:20:00", "website": "example.net"},
+    {"ad_creative_id": 18, "user_id": 118, "timestamp": "2024-05-11T09:25:00", "website": "example.org"},
+    {"ad_creative_id": 19, "user_id": 119, "timestamp": "2024-05-11T09:30:00", "website": "example.com"},
+    {"ad_creative_id": 20, "user_id": 120, "timestamp": "2024-05-11T09:35:00", "website": "example.net"}
+]
