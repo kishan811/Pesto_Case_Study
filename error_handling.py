@@ -12,6 +12,18 @@ spark = SparkSession.builder \
 # Set up logging
 logging.basicConfig(level=logging.ERROR)
 
+class TaskValidator:
+    @staticmethod
+    def validate_task_data(task_data):
+        # Implement server-side validation logic here
+        if not task_data.get("title"):
+            raise ValueError("Task title cannot be empty.")
+        if not task_data.get("description"):
+            raise ValueError("Task description cannot be empty.")
+        if task_data.get("status") not in ["Pending", "Completed"]:
+            raise ValueError("Invalid task status. Status must be 'Pending' or 'Completed'.")
+
+# Function to send email alert
 def send_email_alert(error_message):
     # Email configuration
     sender_email = "your_email@example.com"
@@ -79,7 +91,34 @@ except Exception as e:
     send_email_alert("Error showing data: " + str(e))
     # Implement additional error handling logic, such as retrying or logging to a monitoring system
 
-# Additional error handling and monitoring logic can be added as needed
+# Server-side validation of task data before saving to the database
+try:
+    task_data = {"title": "Sample Task", "description": "Sample description", "status": "Pending"}
+    TaskValidator.validate_task_data(task_data)
+    logging.info("Task data validation successful.")
+except ValueError as ve:
+    logging.error("Error validating task data: %s", str(ve))
+    send_email_alert("Error validating task data: " + str(ve))
+
+# Sample code for additional error handling and monitoring logic
+def log_to_monitoring_system(error_message):
+    # Code to log error message to a monitoring system
+    pass
+
+def retry_failed_tasks():
+    # Code to retry failed tasks
+    pass
+
+# Example usage of additional error handling and monitoring logic
+try:
+    # Code that may raise errors
+    pass
+except Exception as e:
+    # Log error message to a monitoring system
+    log_to_monitoring_system("Error occurred: " + str(e))
+
+    # Retry failed tasks
+    retry_failed_tasks()
 
 # Stop SparkSession
 spark.stop()
