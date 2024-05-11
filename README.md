@@ -26,7 +26,7 @@ This Avro file contains sample data representing bid requests received by Advert
 
 ## Python Scripts
 
-### Data Ingestion Script (data_ingestion.py)
+### Data Ingestion Script (data_ingest.py)
 
 This Python script demonstrates data ingestion using Apache Spark for processing ad impressions (JSON), clicks/conversions (CSV), and bid requests (Avro) data.
 
